@@ -9,5 +9,5 @@
 ansible-playbook playbooks/playbook.yml --user user --extra-vars "ansible_sudo_pass=12345678"
 
 # or in this repo:
-ansible-playbook -i inventory.yml first-playbook.yml --user ubuntu --extra-vars "ansible_sudo_pass=12345678"
+ansible-playbook -vvv -i inventory.yml first-playbook.yml --user ubuntu --extra-vars "ansible_sudo_pass=12345678"
 ```
