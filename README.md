@@ -17,3 +17,6 @@ ansible-playbook -vvv -i inventory.yml first-playbook.yml --user ubuntu --extra-
 ```sh
 ansible-playbook -vvv -i inventory.yml playbook-redis.yml --user ubuntu --extra-vars "ansible_sudo_pass=12345678"
 ```
+
+## Test role
+- Create role for demo purpose
